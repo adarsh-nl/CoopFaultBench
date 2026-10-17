@@ -1,0 +1,7 @@
+include LICENSE NOTICE AUTHORS README.md CHANGELOG.md ROADMAP.md CITATION.cff requirements-lock.txt requirements-camera-lock.txt
+recursive-include docs *.md
+recursive-include scripts *.py
+recursive-include tests *.py *.json
+recursive-include results *
+recursive-include coopfaultbench LICENSE NOTICE *.md *.yaml *.npz *.txt
+global-exclude __pycache__ *.py[cod]

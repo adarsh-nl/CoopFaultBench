@@ -1,0 +1,7 @@
+# Optional camera corruptions (Python 3.13), on top of requirements-lock.txt.
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0
+imageio==2.37.4
+lazy-loader==0.5
+networkx==3.6.1
+tifffile==2026.7.14

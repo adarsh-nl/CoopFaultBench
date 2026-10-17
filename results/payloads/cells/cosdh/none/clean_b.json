@@ -1,0 +1,11 @@
+{
+ "ap_30": 0.9710175840835361,
+ "ap_50": 0.9660287098657948,
+ "ap_70": 0.9289101527474671,
+ "n_gt": 32244,
+ "seed": 1234,
+ "spec_json": "null",
+ "fusion_method": "intermediatelate",
+ "cosdh_contract_version": 1,
+ "cosdh_adapter_sha256": "3f7230d4868c2b34"
+}

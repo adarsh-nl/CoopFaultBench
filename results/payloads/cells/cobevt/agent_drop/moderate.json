@@ -1,0 +1,55 @@
+{
+ "condition": null,
+ "spec_json": "{\"agent_drop\": {\"p_drop\": 0.5}}",
+ "seed": 1234,
+ "spec": {
+  "pose_error": null,
+  "agent_drop": {
+   "p_drop": 0.5
+  },
+  "missing_lidar": null,
+  "points_reduce": null,
+  "latency": null,
+  "lidar_fog": null,
+  "lidar_snow": null,
+  "seed": 1234
+ },
+ "wild_setting_shipped": {
+  "loc_err": false,
+  "async": false,
+  "xyz_std": 0.2,
+  "ryp_std": 0.2,
+  "async_overhead": 100
+ },
+ "wild_forced_off": false,
+ "n_frames": 2834,
+ "ap_30": 0.8234646996309778,
+ "ap_50": 0.7967448654796879,
+ "ap_70": 0.590970166934941,
+ "strata": {
+  "2": {
+   "ap_50": 0.7704867727768885,
+   "ap_70": 0.5669696287353526,
+   "n_frames": 1055,
+   "n_scenes": 7
+  },
+  "3": {
+   "ap_50": 0.8154599744491408,
+   "ap_70": 0.6085302918634791,
+   "n_frames": 778,
+   "n_scenes": 7
+  },
+  "4": {
+   "ap_50": 0.7811107330675018,
+   "ap_70": 0.5824353579173044,
+   "n_frames": 693,
+   "n_scenes": 3
+  },
+  "5": {
+   "ap_50": 0.8232406394806298,
+   "ap_70": 0.6307766119922725,
+   "n_frames": 308,
+   "n_scenes": 2
+  }
+ }
+}

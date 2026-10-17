@@ -1,0 +1,22 @@
+SPDX-License-Identifier: CC-BY-NC-4.0
+
+The contents of this directory (coopfaultbench/injectors/lidar_weather/: the Python files, the fog lookup
+tables in fog_lookup_tables/, and snow_laser.yaml) are licensed under the
+
+    Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0)
+    https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+NOT under the MIT licence that covers the rest of CoopFaultBench. You may use, share and adapt this
+material for NON-COMMERCIAL purposes only, with attribution (see NOTICE in this directory) and an
+indication of changes (stated in each file's header).
+
+The code is adapted from Martin Hahner et al.'s LiDAR fog simulation
+(https://github.com/MartinHahner/LiDAR_fog_sim) and LiDAR snowfall simulation
+(https://github.com/SysCV/LiDAR_snow_sim), which are distributed under CC BY-NC 4.0.
+
+Snowflake particle files generated with this directory's sampler (coopfaultbench.injectors.snow_particles
+writes them to a user cache directory) are output of CC BY-NC 4.0 code and are treated as covered by
+the same licence.
+
+The full legal code is at the URL above (CC BY-NC 4.0 section 3(a)(1)(C) allows providing the licence by
+URI).

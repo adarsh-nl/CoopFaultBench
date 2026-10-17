@@ -1,0 +1,6 @@
+coopfaultbench/injectors/_vendor/multicorrupt/ -- MIT (MultiCorrupt's licence, LICENSE in this directory)
+
+lidar_reduce.py contains MultiCorrupt's pointsreducing function from converter/lidar.py
+(https://github.com/ika-rwth-aachen/MultiCorrupt), copied unchanged.
+Copyright 2024 Institute for Automotive Engineering of RWTH Aachen University.
+The copyright line is as recorded from MultiCorrupt's LICENSE by the licence audit of 2026-10-15.

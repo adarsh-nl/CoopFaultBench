@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use CoopFaultBench, please cite the paper below."
+title: "CoopFaultBench"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/adarsh-nl/CoopFaultBench"
+authors:
+  - given-names: Adarsh
+    family-names: Nanjaiya Latha
+  - given-names: Alessandro
+    family-names: Chiumento
+  - given-names: Jan
+    family-names: Laarhuis
+  - given-names: Ozlem
+    family-names: Durmaz Incel
+preferred-citation:
+  type: conference-paper
+  title: "Agent-Dependent Ground Truth Biases Robustness Evaluation in Collaborative Perception"
+  authors:
+    - given-names: Adarsh
+      family-names: Nanjaiya Latha
+    - given-names: Alessandro
+      family-names: Chiumento
+    - given-names: Jan
+      family-names: Laarhuis
+    - given-names: Ozlem
+      family-names: Durmaz Incel
+  collection-title: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  conference:
+    name: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027)"
+  year: 2027
+  # TODO: doi, start, end (pages) once the proceedings are published; affiliations to be added by the authors.

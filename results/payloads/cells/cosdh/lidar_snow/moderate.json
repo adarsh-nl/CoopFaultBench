@@ -1,0 +1,11 @@
+{
+ "ap_30": 0.7517717530717629,
+ "ap_50": 0.7380039946088639,
+ "ap_70": 0.6043887627131883,
+ "n_gt": 32244,
+ "seed": 1234,
+ "spec_json": "{\"lidar_snow\": {\"mount_height\": 1.9, \"severity\": 2}}",
+ "fusion_method": "intermediatelate",
+ "cosdh_contract_version": 1,
+ "cosdh_adapter_sha256": "3f7230d4868c2b34"
+}

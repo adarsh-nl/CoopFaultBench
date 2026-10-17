@@ -1,0 +1,11 @@
+{
+ "ap_30": 0.749486755538485,
+ "ap_50": 0.7280578776275212,
+ "ap_70": 0.6158062220743485,
+ "n_gt": 32244,
+ "seed": 1234,
+ "spec_json": "{\"points_reduce\": {\"severity\": 3}}",
+ "fusion_method": "intermediatelate",
+ "cosdh_contract_version": 1,
+ "cosdh_adapter_sha256": "3f7230d4868c2b34"
+}

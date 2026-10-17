@@ -1,0 +1,11 @@
+{
+ "ap_30": 0.28026239889874077,
+ "ap_50": 0.2771585233003145,
+ "ap_70": 0.23903717710115965,
+ "n_gt": 32244,
+ "seed": 1234,
+ "spec_json": "{\"lidar_fog\": {\"severity\": 3}}",
+ "fusion_method": "intermediatelate",
+ "cosdh_contract_version": 1,
+ "cosdh_adapter_sha256": "3f7230d4868c2b34"
+}

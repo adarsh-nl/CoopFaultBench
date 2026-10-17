@@ -1,0 +1,53 @@
+{
+ "condition": null,
+ "spec_json": "{}",
+ "seed": 1234,
+ "spec": {
+  "pose_error": null,
+  "agent_drop": null,
+  "missing_lidar": null,
+  "points_reduce": null,
+  "latency": null,
+  "lidar_fog": null,
+  "lidar_snow": null,
+  "seed": 1234
+ },
+ "wild_setting_shipped": {
+  "loc_err": true,
+  "async": true,
+  "xyz_std": 0.2,
+  "ryp_std": 0.2,
+  "async_overhead": 100
+ },
+ "wild_forced_off": false,
+ "n_frames": 2834,
+ "ap_30": 0.8924317866294378,
+ "ap_50": 0.8408752864901786,
+ "ap_70": 0.616376940335608,
+ "strata": {
+  "2": {
+   "ap_50": 0.8347846457950732,
+   "ap_70": 0.6449388043803327,
+   "n_frames": 1055,
+   "n_scenes": 7
+  },
+  "3": {
+   "ap_50": 0.8409389982837289,
+   "ap_70": 0.5890818119226383,
+   "n_frames": 778,
+   "n_scenes": 7
+  },
+  "4": {
+   "ap_50": 0.8368012523016931,
+   "ap_70": 0.6513898503527106,
+   "n_frames": 693,
+   "n_scenes": 3
+  },
+  "5": {
+   "ap_50": 0.8635383045902064,
+   "ap_70": 0.617617051679638,
+   "n_frames": 308,
+   "n_scenes": 2
+  }
+ }
+}

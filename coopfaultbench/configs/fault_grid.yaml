@@ -1,0 +1,55 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 The CoopFaultBench Authors. See LICENSE.
+#
+# The fault grid of the paper: 7 injectors x 3 tiers, each tier a FaultSpec (coopfaultbench.faults).
+# Transcribed from the grid definition that produced the results; checked equal to it, value for value
+# (seed, tier names, injectors, every FaultSpec), during release preparation.
+#
+# - One base seed for every cell: 1234. Per-sample draws derive from
+#   SeedSequence(seed, spawn_key=(frame, crc32(agent), stage)).
+# - Scopes: pose_error, latency, agent_drop, missing_modality are V2X-link faults and touch
+#   collaborators only. points_reduce, lidar_fog, lidar_snow are sensor/environment faults and touch
+#   ALL agents including the ego (FaultSpec default scope 'all').
+# - lidar_snow uses mount_height 1.9 (the CARLA LiDAR mount on OPV2V/V2XSet).
+# - lidar_fog and lidar_snow run CC BY-NC 4.0 code (injectors/lidar_weather/): non-commercial only.
+# - Each model runs at its own shipped `wild_setting`; faults are injected on top of it.
+# - The five fault families of the fixed-reference fault sweep are pose_error, latency, points_reduce,
+#   lidar_fog and lidar_snow; agent_drop and missing_modality are the agent-level faults.
+seed: 1234
+tiers: [mild, moderate, severe]
+injectors:
+  pose_error:
+    unit: pose_sigma
+    mild:     {value: 0.2m/0.2deg, spec: {pose_error: {sigma_xy: 0.2, sigma_heading: 0.2}}}
+    moderate: {value: 0.4m/0.4deg, spec: {pose_error: {sigma_xy: 0.4, sigma_heading: 0.4}}}
+    severe:   {value: 0.6m/0.6deg, spec: {pose_error: {sigma_xy: 0.6, sigma_heading: 0.6}}}
+  latency:
+    unit: latency_ms
+    mild:     {value: 100ms, spec: {latency: {mu_delay: 0.1, sigma_jitter: 0.0}}}
+    moderate: {value: 200ms, spec: {latency: {mu_delay: 0.2, sigma_jitter: 0.0}}}
+    severe:   {value: 300ms, spec: {latency: {mu_delay: 0.3, sigma_jitter: 0.0}}}
+  agent_drop:
+    unit: drop_frac
+    mild:     {value: '0.25', spec: {agent_drop: {p_drop: 0.25}}}
+    moderate: {value: '0.50', spec: {agent_drop: {p_drop: 0.50}}}
+    severe:   {value: '0.75', spec: {agent_drop: {p_drop: 0.75}}}
+  missing_modality:
+    unit: drop_frac
+    mild:     {value: '0.25', spec: {missing_lidar: {p_drop_lidar: 0.25}}}
+    moderate: {value: '0.50', spec: {missing_lidar: {p_drop_lidar: 0.50}}}
+    severe:   {value: '0.75', spec: {missing_lidar: {p_drop_lidar: 0.75}}}
+  points_reduce:
+    unit: keep_frac
+    mild:     {value: '0.30', spec: {points_reduce: {severity: 1}}}
+    moderate: {value: '0.20', spec: {points_reduce: {severity: 2}}}
+    severe:   {value: '0.10', spec: {points_reduce: {severity: 3}}}
+  lidar_fog:
+    unit: mc_severity
+    mild:     {value: sev1, spec: {lidar_fog: {severity: 1}}}
+    moderate: {value: sev2, spec: {lidar_fog: {severity: 2}}}
+    severe:   {value: sev3, spec: {lidar_fog: {severity: 3}}}
+  lidar_snow:
+    unit: mc_severity
+    mild:     {value: sev1, spec: {lidar_snow: {severity: 1, mount_height: 1.9}}}
+    moderate: {value: sev2, spec: {lidar_snow: {severity: 2, mount_height: 1.9}}}
+    severe:   {value: sev3, spec: {lidar_snow: {severity: 3, mount_height: 1.9}}}

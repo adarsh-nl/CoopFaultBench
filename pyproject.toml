@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coopfaultbench"
+version = "0.1.0"
+description = "Fault injection and dual-reference (fixed vs union) evaluation for cooperative 3D perception"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT AND CC-BY-NC-4.0 AND Apache-2.0"}
+authors = [
+  {name = "Adarsh Nanjaiya Latha"},
+]
+dependencies = [
+  "numpy>=1.21",
+  "scipy>=1.7",
+  "PyYAML>=5.4",
+  "Pillow>=8.0",
+]
+
+[project.optional-dependencies]
+camera = ["opencv-python-headless>=4.5", "scikit-image>=0.19"]
+figures = ["matplotlib>=3.5"]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE"]
+
+[tool.setuptools.packages.find]
+include = ["coopfaultbench*"]
+
+[tool.setuptools.package-data]
+"coopfaultbench.injectors.lidar_weather" = ["LICENSE", "NOTICE", "README.md", "snow_laser.yaml",
+                                           "fog_lookup_tables/*.npz", "fog_lookup_tables/SOURCES.txt"]
+"coopfaultbench.injectors._vendor.imagecorruptions" = ["LICENSE", "NOTICE"]
+"coopfaultbench.injectors._vendor.multicorrupt" = ["LICENSE", "NOTICE"]
+"coopfaultbench.configs" = ["*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: long-running (minutes); run with -m slow"]
+addopts = "-m 'not slow' -p no:cacheprovider"

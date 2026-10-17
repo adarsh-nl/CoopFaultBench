@@ -1,0 +1,829 @@
+{
+ "cases": {
+  "agent_drop": {
+   "sha256": "bbd54888c4e21859f3e48f5368bf9ed4d8376c2037c964115f3684371ca3cc3d",
+   "shape": [
+    [
+     200
+    ]
+   ]
+  },
+  "apply_agent_drop_0.50_idx0": {
+   "sha256": "b034f3acd4373ee4a605520c08c4957ce580b5031d99f25ddecc00d9e7be4602",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     34
+    ]
+   ]
+  },
+  "apply_agent_drop_0.50_idx123": {
+   "sha256": "b034f3acd4373ee4a605520c08c4957ce580b5031d99f25ddecc00d9e7be4602",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     34
+    ]
+   ]
+  },
+  "apply_lidar_fog_sev2_idx0": {
+   "sha256": "1c67108578e24df69b2e4620d83c42d2992b7fbb567a75f096ed2eaf2cdcc5ea",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_lidar_fog_sev2_idx123": {
+   "sha256": "e57e034860f789ab12c4693557def81865a5db308cc0eb12749c6fbb1397db14",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_missing_lidar_0.50_idx0": {
+   "sha256": "aedd70c47134394f675018b6f64b284a1568715b4d7f9f6500c9215d11aba6ac",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_missing_lidar_0.50_idx123": {
+   "sha256": "8426e8ea918eebba9e5d55b7774c74aa1b21c31cbd281f81da39ccb2dcd76591",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_points_reduce_sev2_idx0": {
+   "sha256": "a41da2a4e20f1da2ed87616dbe6e531cd9c8b15e861fc1c625b6a8dc74f7b590",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     600,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     600,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     600,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_points_reduce_sev2_idx123": {
+   "sha256": "5f171880283503be57cacddd91f75bc4d412d80b3e109ef9f529e7d5693fb36f",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     600,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     600,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     600,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_pose_error_0.4_idx0": {
+   "sha256": "42bab62e8f40bc928fd0d6b2b6bdf34abdd5bbfe0cc18494e1c62def12129836",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "apply_pose_error_0.4_idx123": {
+   "sha256": "50a0b2146d8da7e6ea8241c263a3077c031442b02d9a336602fde4dd7305dcd3",
+   "shape": [
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     3000,
+     4
+    ],
+    [
+     2
+    ]
+   ]
+  },
+  "calibration": {
+   "sha256": "46bf212d06a3b2261bc9f7f2c89e9535f08ce30ea1acffb9cc754e627a5d41f3",
+   "shape": [
+    [
+     6
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     4
+    ]
+   ]
+  },
+  "camera_brightness_sev2": {
+   "sha256": "e18118f24cdbab940e9355d623f3ec1d938e96c2ebada770bf7e23d4bd5b1fc5",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "camera_camera_fog_sev2": {
+   "sha256": "46355f1c1fda824c11d6b304daa8b4fa1712190c21dc2c4b007d74eb3df46a98",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "camera_camera_snow_sev2": {
+   "sha256": "d58ec302ba504749ec07e30e84b1154220e835eaa627b1b9f3827da380b89530",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "camera_darkness_sev2": {
+   "sha256": "f073e88025bdf38e90e70eb089a0decc3a3b1e4c3e2fceaeae46988931525539",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "latency": {
+   "sha256": "ee5ce20f9835db042a208da55a368e94fcd150d42031ad81c7655a6b03f8cfb9",
+   "shape": [
+    [
+     50,
+     2
+    ]
+   ]
+  },
+  "lidar_fog_sev1": {
+   "sha256": "0cb90080d45ba3a073a9caef66ad64cdeb6076f23ddf331f238ca8c37e92b4b4",
+   "shape": [
+    [
+     6000,
+     4
+    ]
+   ]
+  },
+  "lidar_fog_sev2": {
+   "sha256": "edb50000ecbde0151abb1eecc6160338a26aa06d9ad2422d67724c5dc18ee258",
+   "shape": [
+    [
+     6000,
+     4
+    ]
+   ]
+  },
+  "lidar_fog_sev3": {
+   "sha256": "cb97ac457cc221a3bade72a801de54c2306aba0004123977aa581c1302b414aa",
+   "shape": [
+    [
+     6000,
+     4
+    ]
+   ]
+  },
+  "missing_mask": {
+   "sha256": "bffda142d01ab2f83315c0f4b14fcef1589c3e6833f9d7a396dbf8287c11d7de",
+   "shape": [
+    [
+     200
+    ]
+   ]
+  },
+  "missing_modality": {
+   "sha256": "3ba9ca26506c6164e2d7d3f37acdfb8358f605e5b661d18524339ba8f0c00eac",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     96,
+     128,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     96,
+     128,
+     3
+    ],
+    [
+     6000,
+     4
+    ],
+    [
+     96,
+     128,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     96,
+     128,
+     3
+    ],
+    [
+     6000,
+     4
+    ]
+   ]
+  },
+  "occlusion_crack": {
+   "sha256": "5785e82ba6960c12365cd6f492a57540a7f72dad83597c759837e5166454bcb4",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "occlusion_dirt": {
+   "sha256": "b3fdc9f267efbb734a9a41f13d667ed8ecc720f410181bb6fe71e9607f7100cc",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "occlusion_scratch": {
+   "sha256": "49073cd9f92c2826d5d9f09bb0b8cd1df05de18d7bbbda6a462bdb2f610c0562",
+   "shape": [
+    [
+     96,
+     128,
+     3
+    ]
+   ]
+  },
+  "points_reduce_sev1": {
+   "sha256": "27048e9e8593c24da71ae9f3cddfaadbd15e5bd96019b80d8d59467d53b14d5e",
+   "shape": [
+    [
+     1800,
+     4
+    ]
+   ]
+  },
+  "points_reduce_sev2": {
+   "sha256": "f3d8850ec7281c097ff263fa5fd41d0a9dcdea10b68828f37580606cfa0b9af6",
+   "shape": [
+    [
+     1200,
+     4
+    ]
+   ]
+  },
+  "points_reduce_sev3": {
+   "sha256": "f64ff0dd1a99478a0c1d75f7a6873917294084aec1b17ecf49a3254351cf4aae",
+   "shape": [
+    [
+     600,
+     4
+    ]
+   ]
+  },
+  "pose_error": {
+   "sha256": "f3aa75385ac4fec4a9f678b43354d26021c46ced536b558fad1a30cfa7808cf9",
+   "shape": [
+    [
+     6
+    ],
+    [
+     4,
+     4
+    ]
+   ]
+  },
+  "temporal": {
+   "sha256": "fc886e5329c223c54df6372f6b48e75a5d8b03ea833e7004fa36e71bb7ec2797",
+   "shape": [
+    [
+     20,
+     2
+    ]
+   ]
+  }
+ },
+ "cases_note": "identical under numpy 1.21.6 (Python 3.7, the environment of the paper's fault runs) and numpy 2.5.1 (Python 3.13)",
+ "generated_by": "the ORIGINAL injector code frozen in the wacv2027-results provenance tag (before the licence split and renames), run on the synthetic cases in tests/golden_cases.py",
+ "snow": {
+  "1.21.6": {
+   "cases": {
+    "apply_lidar_snow_sev1_idx0": {
+     "sha256": "1cb6168b03848211de1e6fa9df88f43922cddd81533fd687526bebb598ebad34",
+     "shape": [
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2997,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2950,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2998,
+       4
+      ],
+      [
+       2
+      ]
+     ]
+    },
+    "apply_lidar_snow_sev1_idx123": {
+     "sha256": "a75a03127848d8e2af3fdb12c4a67c2912f56e9455fd5127fa0ec354548b7b5d",
+     "shape": [
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2998,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2952,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2995,
+       4
+      ],
+      [
+       2
+      ]
+     ]
+    },
+    "lidar_snow_sev1": {
+     "sha256": "a7a3f7371671f25dd14a923f32c0f99f387f73576683fa2f22b751e44d66f0bf",
+     "shape": [
+      [
+       5814,
+       4
+      ],
+      [
+       5814
+      ]
+     ]
+    }
+   },
+   "cpu_features": null
+  },
+  "2.5.1": {
+   "cases": {
+    "apply_lidar_snow_sev1_idx0": {
+     "sha256": "e1f2d3e1886a38d9a0094efbcdbab3eb4b034540e957ad0fe6648210595f8dff",
+     "shape": [
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2208,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2059,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2067,
+       4
+      ],
+      [
+       2
+      ]
+     ]
+    },
+    "apply_lidar_snow_sev1_idx123": {
+     "sha256": "8adcdcf619f78945c5f39f524e4edebdcf5de6c18daaeeb752e2eefb4b4d1771",
+     "shape": [
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2215,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2068,
+       4
+      ],
+      [
+       3
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       2040,
+       4
+      ],
+      [
+       2
+      ]
+     ]
+    },
+    "lidar_snow_sev1": {
+     "sha256": "7b93ea3acd98ce22937d1f90798f0af9a46b1709b5801226e2c2d197b88b0d04",
+     "shape": [
+      [
+       5430,
+       4
+      ],
+      [
+       5430
+      ]
+     ]
+    }
+   },
+   "cpu_features": [
+    "AVX2",
+    "AVX512BF16",
+    "AVX512BITALG",
+    "AVX512BW",
+    "AVX512CD",
+    "AVX512DQ",
+    "AVX512F",
+    "AVX512IFMA",
+    "AVX512VBMI",
+    "AVX512VBMI2",
+    "AVX512VL",
+    "AVX512VNNI",
+    "AVX512VPOPCNTDQ",
+    "AVX512_CLX",
+    "AVX512_CNL",
+    "AVX512_ICL",
+    "AVX512_SKX",
+    "X86_V3",
+    "X86_V4"
+   ]
+  }
+ },
+ "snow_note": "LiDAR snow output depends on numpy argpartition tie order (numpy 1.x vs 2.x) and, for numpy >= 2, on the CPU SIMD dispatch"
+}

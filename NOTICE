@@ -1,0 +1,30 @@
+CoopFaultBench
+Copyright (c) 2026 The CoopFaultBench Authors
+
+CoopFaultBench is released under the MIT License (see LICENSE), WITH TWO EXCEPTIONS:
+
+(1) coopfaultbench/injectors/lidar_weather/ contains code adapted from Martin Hahner et al.'s LiDAR fog
+    simulation (https://github.com/MartinHahner/LiDAR_fog_sim) and LiDAR snowfall simulation
+    (https://github.com/SysCV/LiDAR_snow_sim), and is licensed under CC BY-NC 4.0
+    (https://creativecommons.org/licenses/by-nc/4.0/): NON-COMMERCIAL USE ONLY. See its LICENSE and NOTICE.
+    The LiDAR fog and LiDAR snow injectors (LidarFogInjector, LidarSnowInjector, and the lidar_fog and
+    lidar_snow fault conditions) run that code and may therefore be used for non-commercial purposes only.
+
+(2) coopfaultbench/injectors/_vendor/imagecorruptions/ contains image-corruption code matching
+    bethgelab/imagecorruptions (Evgenia Rusak, Benjamin Mitzkus), distributed under the Apache License 2.0;
+    see its LICENSE and NOTICE.
+
+All other code is MIT. The research results in results/ are licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/); see results/README.md.
+
+Third-party credits
+- MultiCorrupt (https://github.com/ika-rwth-aachen/MultiCorrupt), MIT, Copyright 2024 Institute for
+  Automotive Engineering of RWTH Aachen University. The fog, snow and image code reached this project
+  through MultiCorrupt; its LiDAR points-reduction code is in coopfaultbench/injectors/_vendor/multicorrupt/
+  with MultiCorrupt's licence.
+- Hahner et al., LiDAR fog and snowfall simulations (CC BY-NC 4.0), as above.
+- bethgelab/imagecorruptions (Apache-2.0), as above.
+
+Not included and not redistributed: OpenCOOD (https://github.com/DerrickXuNu/OpenCOOD, UCLA academic
+licence), CoSDH (https://github.com/Xu2729/CoSDH), V2X-ViT (https://github.com/DerrickXuNu/v2x-vit),
+model checkpoints, and the OPV2V and V2XSet datasets. Install or download them yourself under their terms.

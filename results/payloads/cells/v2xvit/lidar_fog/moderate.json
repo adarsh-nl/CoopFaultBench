@@ -1,0 +1,80 @@
+{
+ "condition": null,
+ "spec_json": "{\"lidar_fog\": {\"severity\": 2}}",
+ "seed": 1234,
+ "spec": {
+  "pose_error": null,
+  "agent_drop": null,
+  "missing_lidar": null,
+  "points_reduce": null,
+  "latency": null,
+  "lidar_fog": {
+   "severity": 2
+  },
+  "lidar_snow": null,
+  "seed": 1234
+ },
+ "wild_setting_shipped": {
+  "loc_err": true,
+  "async": true,
+  "xyz_std": 0.2,
+  "ryp_std": 0.2,
+  "async_overhead": 100
+ },
+ "wild_forced_off": false,
+ "n_frames": 2834,
+ "wrapper_contract_version": 2,
+ "adapter_sha256": "b2e3e27c5cb8ce1e",
+ "injector_contract_version": 1,
+ "injector_sha256": "f222966a809bfeab",
+ "injector_files_sha256": {
+  "_mc_image": "273525d7",
+  "_mc_lidar": "209c0ffc",
+  "_mc_snow": "d6023d31",
+  "brightness": "d23dfc42",
+  "calibration": "2e748de0",
+  "communication": "29408ed6",
+  "darkness": "ceddd76a",
+  "fog": "b8368491",
+  "lidar_beams_reduce": "27dff8f4",
+  "lidar_fog": "bdc5c3f7",
+  "lidar_points_reduce": "74628ae1",
+  "lidar_snow": "a03b91ee",
+  "missing_modality": "806b23b7",
+  "pose_error": "b3141aa6",
+  "sensor_occlusion": "1dbae7a6",
+  "severity": "18ff5759",
+  "snow": "fff8dd01",
+  "snowflake_sampling": "0f828c93",
+  "temporal_misalignment": "5c882ad3"
+ },
+ "ap_30": 0.5406223929147481,
+ "ap_50": 0.48116020143067334,
+ "ap_70": 0.29789828110568944,
+ "strata": {
+  "2": {
+   "ap_50": 0.453190988646797,
+   "ap_70": 0.3245202154608189,
+   "n_frames": 1055,
+   "n_scenes": 7
+  },
+  "3": {
+   "ap_50": 0.4854808768380171,
+   "ap_70": 0.26893866827112844,
+   "n_frames": 778,
+   "n_scenes": 7
+  },
+  "4": {
+   "ap_50": 0.4757395158002098,
+   "ap_70": 0.32054026795066315,
+   "n_frames": 693,
+   "n_scenes": 3
+  },
+  "5": {
+   "ap_50": 0.5317555069659985,
+   "ap_70": 0.31062251880332514,
+   "n_frames": 308,
+   "n_scenes": 2
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "models": {
+  "cobevt": {
+   "dataset": "v2xset",
+   "setting": "perfect",
+   "expected_frames": 2834,
+   "graded": true,
+   "published": {
+    "ap50": 0.849,
+    "ap70": 0.66
+   }
+  },
+  "where2comm": {
+   "dataset": "v2xset",
+   "setting": "noisy",
+   "expected_frames": 2834,
+   "graded": false,
+   "published": {
+    "ap50": 0.82,
+    "ap70": 0.534
+   }
+  },
+  "cosdh": {
+   "dataset": "opv2v",
+   "setting": "perfect",
+   "expected_frames": 2170,
+   "graded": false,
+   "published": null
+  },
+  "v2xvit": {
+   "dataset": "v2xset",
+   "setting": "noisy",
+   "expected_frames": 2834,
+   "graded": true,
+   "published": {
+    "ap50": 0.836,
+    "ap70": 0.614
+   }
+  }
+ },
+ "not_applicable_cells": [
+  "cosdh/agent_drop/mild",
+  "cosdh/agent_drop/moderate",
+  "cosdh/agent_drop/severe",
+  "cosdh/missing_modality/mild",
+  "cosdh/missing_modality/moderate",
+  "cosdh/missing_modality/severe"
+ ]
+}

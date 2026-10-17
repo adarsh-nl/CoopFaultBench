@@ -1,0 +1,4 @@
+# original pickle (as frozen in the provenance tag) -> shipped npz; entries; round trip exact
+integral_0m_to_200m_stepsize_0.1m_alpha_0.02_beta_0.008.pickle  sha256 5ba66bb57258d0b8bb5070081ae452173740f0d9cd7c0a9178ad06c0e532f87a  ->  integral_0m_to_200m_stepsize_0.1m_alpha_0.02_beta_0.008.npz  sha256 d312ad896ffe5d427ef0123c6318a3a241da9cfed93010bbb0a7f652c3d3cb7e  (2001 entries)
+integral_0m_to_200m_stepsize_0.1m_alpha_0.03_beta_0.008.pickle  sha256 7b5585d4f2ca986d1ce3a2a32141f9a4fe91a797cd46ab98efe55b2c2cfbbc71  ->  integral_0m_to_200m_stepsize_0.1m_alpha_0.03_beta_0.008.npz  sha256 3e7d761799a4a1d531195c7b4065cda9cf57ea6cdd8e68e3845359537c654343  (2001 entries)
+integral_0m_to_200m_stepsize_0.1m_alpha_0.06_beta_0.05.pickle  sha256 0ea17d26b548a8643f7adb33348ff16a607e22159f77acf350b1c76b66d9b700  ->  integral_0m_to_200m_stepsize_0.1m_alpha_0.06_beta_0.05.npz  sha256 5fc126e9f8497d221e76d3a59c28be416e7c33b387cbed158f060c5092cf039c  (2001 entries)

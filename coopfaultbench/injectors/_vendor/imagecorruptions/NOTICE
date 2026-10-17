@@ -1,0 +1,16 @@
+coopfaultbench/injectors/_vendor/imagecorruptions/ -- Apache License 2.0 (see LICENSE in this directory)
+
+image_corruptions.py is MultiCorrupt's converter/img.py (https://github.com/ika-rwth-aachen/MultiCorrupt)
+plus a 5-line NumPy compatibility shim. It contains code matching bethgelab/imagecorruptions
+(https://github.com/bethgelab/imagecorruptions; Evgenia Rusak, Benjamin Mitzkus; Apache License 2.0),
+for example plasma_fractal, clipped_zoom, getMotionBlurKernel, _motion_blur and the noise helpers.
+imagecorruptions credits plasma_fractal to FLHerne/mapgen (licence UNRESOLVED). imagecorruptions
+version 1.1.2, whose LICENSE is reproduced here, ships no Apache NOTICE file. Upstream commits: UNRESOLVED.
+
+MultiCorrupt-authored functions in this file are also covered by MultiCorrupt's licence:
+
+  MIT License, Copyright 2024 Institute for Automotive Engineering of RWTH Aachen University.
+  (full text: ../multicorrupt/LICENSE)
+
+Changes made in CoopFaultBench: the import-time global reseed np.random.seed(1000) is commented out
+(marked CHANGE); callers seed numpy before every call. No function body was changed.
